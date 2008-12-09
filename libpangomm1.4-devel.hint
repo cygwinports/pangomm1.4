@@ -1,0 +1,8 @@
+category: Gnome
+requires: cygwin libpangomm1.4_1 libcairomm1.0-devel libglib2.0-devel libglibmm2.4-devel libpango1.0-devel libsigc2.0-devel
+external-source: pangomm1.4
+sdesc: "C++ bindings for pango-1.x (development)"
+ldesc: "gtkmm is the official C++ interface for the popular GUI library 
+GTK+. It closely follows GTK+ development. Highlights include typesafe 
+callbacks, widgets extensible via inheritance and a comprehensive set 
+of widgets."
