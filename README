@@ -3,24 +3,26 @@ pangomm1.4
 C++ bindings for the Pango text rendering library
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libcairomm1.0_1-1.6.4-1
-  libglib2.0_0-2.18.3-1
-  libglibmm2.4_1-2.18.1-1
-  libpango1.0_0-1.22.3-1
-  libsigc2.0_0-2.2.3-1
+  cygwin-1.7.0-44
+  libcairomm1.0_1-1.8.0-1
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
+  libglibmm2.4_1-2.20.0-1
+  libpango1.0_0-1.24.0-1
+  libsigc2.0_0-2.2.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
   libtool-2.2.6a-1
-  make-3.81-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -33,17 +35,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack pangomm1.4-2.14.1-X-src.tar.bz2
+  unpack pangomm1.4-2.24.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pangomm1.4-2.14.1-X.cygport all
+  cygport ./pangomm1.4-2.24.0-X.cygport all
 
 This will create:
-  /usr/src/libpangomm1.4_1-2.14.1-X.tar.bz2
-  /usr/src/libpangomm1.4-devel-2.14.1-X.tar.bz2
-  /usr/src/libpangomm1.4-doc-2.14.1-X.tar.bz2
-  /usr/src/pangomm1.4-2.14.1-X-src.tar.bz2
+  /usr/src/libpangomm1.4_1-2.24.0-X.tar.bz2
+  /usr/src/libpangomm1.4-devel-2.24.0-X.tar.bz2
+  /usr/src/libpangomm1.4-doc-2.24.0-X.tar.bz2
+  /usr/src/pangomm1.4-2.24.0-X-src.tar.bz2
 
 -------------------------------------------
 
@@ -51,12 +53,11 @@ Files included in the binary packages:
 
 (libpangomm1.4_1)
   /usr/bin/cygpangomm-1.4-1.dll
-  /usr/share/doc/pangomm1.4-2.14.1/AUTHORS
-  /usr/share/doc/pangomm1.4-2.14.1/COPYING
-  /usr/share/doc/pangomm1.4-2.14.1/ChangeLog
-  /usr/share/doc/pangomm1.4-2.14.1/INSTALL
-  /usr/share/doc/pangomm1.4-2.14.1/NEWS
-  /usr/share/doc/pangomm1.4-2.14.1/README
+  /usr/share/doc/pangomm1.4/AUTHORS
+  /usr/share/doc/pangomm1.4/COPYING
+  /usr/share/doc/pangomm1.4/ChangeLog
+  /usr/share/doc/pangomm1.4/NEWS
+  /usr/share/doc/pangomm1.4/README
 
 (libpangomm1.4-devel)
   /usr/include/pangomm-1.4/pangomm.h
@@ -128,8 +129,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.14.1-1 -----
-Broken out upstream from gtkmm2.4.
+----- version 2.24.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
