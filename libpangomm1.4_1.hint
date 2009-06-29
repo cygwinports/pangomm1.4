@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libcairomm1.0_1 libgcc1 libglib2.0_0 libglibmm2.4_1 libpango1.0_0 libsigc2.0_0 libstdc++6
+requires: libcairomm1.0_1 libgcc1 libglib2.0_0 libglibmm2.4_1 libpango1.0_0 libsigc2.0_0 libstdc++6
 external-source: pangomm1.4
 sdesc: "C++ bindings for pango-1.x (runtime)"
 ldesc: "gtkmm is the official C++ interface for the popular GUI library 
