@@ -1,7 +1,7 @@
 inherit gtkmm
 
 NAME="pangomm1.4"
-VERSION=2.28.4
+VERSION=2.34.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="C++ bindings for Pango"
